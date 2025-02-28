@@ -173,6 +173,12 @@ ul li a:hover {
   padding: 16px;
 }
 
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
 /*MIDIA QUARIES*/
 @media (min-width: 700px) {
   :root {
