@@ -11,16 +11,16 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
-    //img.setAttribute(
-      //"alt",
-     // "foto de Mayk Brito sorrindo com um óculos de sol, comisa preta e fundo azul "
-    //)
+    img.setAttribute("src", "./assets/avatar-light.jpg")
+    img.setAttribute(
+      "alt",
+      "foto de Alba Montenegro sorrindo usando óculos e camisa preta, fundo acom algumas casas e céu azul"
+    )
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
-    //img.setAttribute(
-      //"alt",
-      //"foto de Mayk Brito sorrindo usando óculos e camisa preta, barba e fundo amarelo"
-    //)
+    img.setAttribute("src", "./assets/avatar.jpg")
+    img.setAttribute(
+      "alt",
+      "foto de Alba Montenegro sorrindo usando casaco preto e um fundo verde"
+    )
   }
 }
